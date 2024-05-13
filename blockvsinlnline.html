@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block VS Inline Elements in HTML</title>
+</head>
+<body>
+    <!-- Div tag -> 1)it is used for wrapping bcoz some property if we apply to div tag than it will be apply on all elements under div tag and it is a generic container
+    2) div is block element -->
+
+    <!-- .contain -->
+    <div class="contain">
+        <section>
+            <ui>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ui>
+            <footer></footer>
+        </section>
+    </div>
+
+    <!-- .wrapper -->
+    <div class="wrapper">
+        <header></header>
+        <main></main>
+        <footer></footer>
+    </div>
+
+
+    
+    <!-- Block Vs Inline element -> 
+        1) Block element is come under always in next line and
+        2) Block element is contaain by default all splaces in between left to right.
+
+        1)Inline element is not come under next line.
+        2) and Inline element contain only content spaces by-default.
+     -->
+<!-- div is block element -->
+     <div style="background-color: aqua;">This is My div</div>
+     <div style="background-color: aqua;">This is My div</div>
+     <!-- span is inline element -->
+     <span style="background-color: red;">This is my first span tag</span>
+     <span style="background-color: red;">This is my first span tag</span>
+<!-- P tag is block element -->
+<!-- convert block to inline -->
+     <p style="background-color: brown; display: inline;">This is a Para</p>
+     <p style="background-color: brown;">This is a Para</p>
+
+
+     <!-- List Complexity -->
+     <!-- ul>(li>p>a)*7 -->
+     <ul>
+        <li>
+            <p><a href="https://www.google.com">A</a></p>
+        </li>
+        <li>
+            <p><a href="">B</a></p>
+        </li>
+        <li>
+            <p><a href="">C</a></p>
+        </li>
+        <li>
+            <p><a href="">D</a></p>
+        </li>
+        <li>
+            <p><a href="">E</a></p>
+        </li>
+        <li>
+            <p><a href="">F</a></p>
+        </li>
+        <li>
+            <p><a href="">G</a></p>
+        </li>
+     </ul>
+
+     <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Login</a></li>
+        </ul>
+     </nav>
+
+
+     <!-- Anchor tag Variation -->
+     <a href="https://www.codehelp.in">Chalo codehelp</a>
+     <a href="mailto:roshansinghrathore15@gmail.com">Email</a>
+     <a href="tel:+916203691790">Callus</a>
+</body>
+</html>
